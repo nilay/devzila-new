@@ -23,7 +23,7 @@ include_once("include/header.php");
             <p>&nbsp;</p>
 
             <p>
-                <strong>Infrastructure Engineering Services:</strong>
+                <strong>Infrastructure Engineering Services:</strong><br/>
                 Our IES services are built on the concept of ‘optimize at the back end’ to bring in operational efficiencies and drive down costs. 
                 <br/>Management – On Demand Services/Self service | Monitoring – Application re-factoring/re-platforming | Security – Standardization, Virtualization, Optimization and Hybrid Services
             </p>
