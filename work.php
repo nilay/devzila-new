@@ -1,5 +1,5 @@
 <?php
-$TITLE = "Devzila";
+$TITLE = "Works | Devzila";
 include_once("include/header.php");
 ?>
     <div class="container">
