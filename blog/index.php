@@ -13,6 +13,8 @@ include_once("../include/header.php");
   <!-- Example row of columns -->
   <div class="row">
 
+<h1><?php print $cmsContentDecoded->post->title; ?></h1>
+      
 <?php print $cmsContentDecoded->post->content; ?>
           
   </div>
