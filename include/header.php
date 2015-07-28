@@ -18,7 +18,13 @@ print $PAGE;
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">  
+    <link href="/css/style2.css" rel="stylesheet">  
+    <!-- Custom Style -->
+    <link href="css/style.css" rel="stylesheet" />
+	<link href="css/responsive.css" rel="stylesheet">
+    <!-- Color Scheme -->
+    <link href="css/color.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -56,5 +62,5 @@ print $PAGE;
       </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div style="margin-bottom: 130px;">
+    <div style="margin-bottom: 30px;">
     </div>
