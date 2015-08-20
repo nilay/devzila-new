@@ -1,7 +1,5 @@
 <?php
 $PAGE = ltrim($_SERVER['REQUEST_URI'], '/');
-
-print $PAGE;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +23,7 @@ print $PAGE;
     <!-- Color Scheme -->
     <link href="css/color.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -49,9 +48,6 @@ print $PAGE;
                 <div class="navbar-collapse collapse" id="navbar" style="max-height: 710px;">
                     <ul class="nav navbar-nav navbar-right scroll-to">
                         <li class="<?php echo $PAGE == '' ? 'active':'';?>"><a href="/">Home</a></li>
-                        <li class="<?php echo $PAGE == 'about-us' ? 'active':'';?>"><a href="/about-us">About Us</a></li>
-                        <li class="<?php echo $PAGE == 'services' ? 'active':'';?>"><a href="/services">Services</a></li>
-                        <li class="<?php echo $PAGE == 'work' ? 'active':'';?>"><a href="/work">Work</a></li>
                         <li class="<?php echo substr($PAGE,0,4) == 'blog' ? 'active':'';?>"><a href="/blog">Blog</a></li>
                         <li class="<?php echo $PAGE == 'jobs' ? 'active':'';?>"><a href="/jobs">Jobs</a></li>
                         <li class="<?php echo $PAGE == 'contact' ? 'active':'';?>"><a href="/contact">Contact</a></li>
@@ -62,5 +58,5 @@ print $PAGE;
       </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div style="margin-bottom: 30px;">
+    <div style="margin-bottom: 90px;">
     </div>

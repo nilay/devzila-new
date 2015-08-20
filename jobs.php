@@ -11,6 +11,7 @@ include_once("include/header.php");
            </center>        
         </div>
       </div>
+    </div>
 <?php
 include_once("include/footer.php");
 ?>
