@@ -36,8 +36,7 @@ include_once("include/header.php");
 
         <div class="col-md-6">
           <div class="well">
-             <iframe width="100%" height="350" frameborder="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=new+york+city&amp;aq=&amp;sll=37.6,-95.665&amp;sspn=60.867771,135.263672&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;z=11&amp;iwloc=A&amp;output=embed" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-          </div><!--end well -->
+              <iframe width="100%" height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109779.95612093745!2d76.85480699999992!3d30.700864000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzAzLjEiTiA3NsKwNTEnMTcuMyJF!5e0!3m2!1sen!2sin!4v1440094143672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>          </div><!--end well -->
         </div><!--end right --> 
      
       </div><!--end row -->
