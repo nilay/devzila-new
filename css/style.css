@@ -804,3 +804,71 @@ h1, h2, h3, h4, h5, h6 {
 .margin-bottom30 {
     margin-bottom: 30px;
 }
+
+
+/* ============================
+
+          COLOR 
+
+=============================== */
+.btn-link,.btn-link:hover,
+.btn-transparent-black:hover,
+.btn-transparent-white:hover,
+.btn-transparent-black-inverse,
+.btn-transparent-white-inverse,
+.btn-transparent-color,
+.btn-transparent-color-inverse:hover
+{
+  color: #ffc400;
+}
+
+
+
+
+
+/* ============================
+
+
+         BACKGROUND COLOR 
+
+=============================== */
+.btn-default,
+.section-title h1:before,
+.section-title h2:before,
+.special-feature .mask-top h4:before ,
+.s-feature-box,
+.s-feature-box:hover .mask-bottom,
+.item-box.inverse a:hover i,
+.work-process-box .item-number,
+.name:before,
+.inverse-bg-color i,
+.icons-bg-color i,
+.bg-color,
+.bg-hover-color:hover,
+.gray-bg i:hover,
+.features-list-item:hover i,
+.bar,
+.static-color-icons span,
+.fill-icon:after,
+.btn-transparent-color:hover,
+.btn-transparent-color-inverse,
+.image-bg .overlay-color,
+.overlay-color
+{
+  background-color: #ffc400;
+}
+
+
+
+/* ============================
+
+         BORDER COLOR 
+
+=============================== */
+
+
+
+.bottom-arrow:before{
+  border-top-color: #ffc400;
+}
+
