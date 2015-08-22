@@ -16,9 +16,8 @@ $PAGE = ltrim($_SERVER['REQUEST_URI'], '/');
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/style2.css" rel="stylesheet">  
+    <link href="/css/style.css" rel="stylesheet">  
     <!-- Custom Style -->
-    <link href="css/style.css" rel="stylesheet" />
     <!-- Color Scheme -->
     <link href="css/color.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
