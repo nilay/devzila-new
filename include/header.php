@@ -19,7 +19,6 @@ $PAGE = ltrim($_SERVER['REQUEST_URI'], '/');
     <link href="/css/style2.css" rel="stylesheet">  
     <!-- Custom Style -->
     <link href="css/style.css" rel="stylesheet" />
-	<link href="css/responsive.css" rel="stylesheet">
     <!-- Color Scheme -->
     <link href="css/color.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
