@@ -10,13 +10,13 @@ include_once("include/header.php");
                 <div class="row">
                     <div class="col-md-12 text-center" data-animation="fadeInUp">
                         <!-- Text -->
-                        <p class="title-description" style="font-family: 'Source Sans Pro'; font-size:12.1pt">
+                        <p class="title-description" style="font-family: 'Source Sans Pro'; font-size:12.1pt; color:grey">
                         Established in 2015, Devzilla is outsourced start up from India. We are team, that consists of Java, PHP and Python senior developers, that believe that code and work quality is the most important thing in the world. Our goal is to provide best customer experience for reliable price.
 						As software development house, we provide high quality web, desktop and mobile solutions. We focused on building high load systems and mobile development using Laravel and Django framework. We work by time and material model and we love to provide dedicated developers from our team to work with our partner directly.
                         </p>
                     </div>
                 </div>
-                <div class="row special-feature">
+                <div class="row special-feature" style="margin-top:40px">
                     <!-- Special Feature Box 1 -->
                     <div class="col-md-3 col-sm-6" data-animation="fadeInUp">
                         <div class="s-feature-box text-center">
@@ -91,6 +91,17 @@ include_once("include/header.php");
         <!-- about-us -->
 
 
+        <section id="about-us">
+            <div class="container">
+                <div class="row" style="margin-top:40px">
+                    <div class="col-md-12 text-center" data-animation="fadeInUp">
+                    
+                    <div style="height:400px; background-color:grey"></div>
+                    
+					</div>
+				</div>
+			</div>
+		</section>
 
 
 <?php

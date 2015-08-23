@@ -1,4 +1,4 @@
-        <div id="get-quote" class="bg-color get-a-quote black text-center">
+        <div id="get-quote" class="bg-color get-a-quote black text-center" style="margin-top:40px">
             <div class="container" data-animation="pulse">
                 <div class="row">
                     <div class="col-md-12">Get A Free Quote / Need a Help ? 
