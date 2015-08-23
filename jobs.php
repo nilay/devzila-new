@@ -11,14 +11,14 @@ include_once("include/header.php");
                 <p class="tagline">Thank you for visiting out little slice of the internet. If you would like to get into contact with our team simply fill out the nifty form below. Click send. Let's talk.</p>  
             </div><!--end jumbotron -->
         </div>
-        <div class="col-md-9">
+        <div class="col-md-8">
          
          <!-- generic contact form -->   
 		<?php include("include/_contact.php");?>           
             
         </div><!-- end left -->
 
-        <div class="col-md-3">
+        <div class="col-md-4">
 			<?php include("include/_contact.php");?>
 			<?php include("include/_related.php");?>
         </div><!--end right --> 

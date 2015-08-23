@@ -1,13 +1,49 @@
 <div class="panel panel-default">
   <div class="panel-body">
-    <h4>Also Read</h4>
-		<ul class="list-group">
-		  <li class="list-group-item">Cras justo odio</li>
-		  <li class="list-group-item">Dapibus ac facilisis in</li>
-		  <li class="list-group-item">Morbi leo risus</li>
-		  <li class="list-group-item">Porta ac consectetur ac</li>
-		  <li class="list-group-item">Vestibulum at eros</li>
-		</ul>	
+
+<div class="sidebar-section newto">
+    <h2 class="newto-title">Recent <strong>Posts</strong></h2>
+	<article class="dots-h">
+    	 <div class="holder">        
+    	 	<header>            
+    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
+    	 	</header>        
+    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
+    	 </div>   
+    </article>
+
+
+	<article class="dots-h">
+    	 <div class="holder">        
+    	 	<header>            
+    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
+    	 	</header>        
+    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
+    	 </div>   
+    </article>
+
+	<article class="dots-h">
+    	 <div class="holder">        
+    	 	<header>            
+    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
+    	 	</header>        
+    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
+    	 </div>   
+    </article>
+
+	<article class="dots-h">
+    	 <div class="holder">        
+    	 	<header>            
+    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
+    	 	</header>        
+    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
+    	 </div>   
+    </article>
+
+</div>
+
+
+
   </div>
 </div>    
  

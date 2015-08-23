@@ -874,3 +874,75 @@ h1, h2, h3, h4, h5, h6 {
   border-top-color: #ffc400;
 }
 
+.sidebar-section.newto {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-top: 15px;
+}
+* {
+    outline: medium none;
+}
+
+h2.newto-title {
+    border-bottom: 2px solid #005fae;
+    color: #646464 !important;
+    font-family: "Abel","Helvetica Neue","Helvetica",Arial,Verdana,sans-ser;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 14px;
+    margin-top: 0;
+    position: relative;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+}
+
+.dots-h {
+    background: transparent url("/images/bg-dots-h.png") repeat-x scroll center bottom;
+    margin-bottom: 0.7em !important;
+}
+.sidebar-section.newto {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.dots-h a {
+    color: #005fae;
+    text-decoration: none;
+}
+.newto .holder {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#sidebar .holder h3 {
+    color: #476ec6;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+.newto .holder h3 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: #646464 !important;
+    font-family: "Kreon","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    margin: 0 0 0.3em !important;
+    padding: 0 !important;
+}
+.newto .holder h3 a {
+    font-family: "Kreon","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.dots-h .holder p.newto-description {
+    color: #414141 !important;
+    font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    margin-bottom: 14px !important;
+    padding: 0 !important;
+}
+
