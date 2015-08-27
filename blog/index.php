@@ -28,9 +28,9 @@ include_once("../include/header.php");
   <!-- Example row of columns -->
   <div class="row">
 
-<h1><?php print $posts[1]->post_title;//print $cmsContentDecoded->post->title; ?></h1>
+<h1><?php print $posts[0]->post_title;//print $cmsContentDecoded->post->title; ?></h1>
       
-<?php print $posts[1]->post->content; ?>
+<?php print $posts[0]->post->content; ?>
           
   </div>
 </div>
