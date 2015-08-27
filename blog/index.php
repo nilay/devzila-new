@@ -20,19 +20,25 @@ $posts = $query->get_posts();
 //$cmsContentDecoded = json_decode($cmsContent);
 
 
-$TITLE = $cmsContentDecoded->post->title . " | Devzila";
+$TITLE = $posts[0]->post_title . " | Devzila";
 include_once("../include/header.php");
 ?>
 
 <div class="container">
-  <!-- Example row of columns -->
-  <div class="row">
 
-<h1><?php print $posts[0]->post_title;//print $cmsContentDecoded->post->title; ?></h1>
-      
-<?php print $posts[0]->post->content; ?>
-          
-  </div>
+      <div class="row">
+        <div class="col-md-8">
+         	<?php print $posts[0]->post->title; ?>
+            <?php print $posts[0]->post->content; ?>        
+            
+        </div><!-- end left -->
+
+        <div class="col-md-4">
+			<?php include("include/_contact.php");?>
+			<?php include("include/_related.php");?>
+        </div><!--end right --> 
+     
+      </div><!--end row -->
 </div>
 <?php
 include_once("../include/footer.php");
