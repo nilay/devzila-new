@@ -1,17 +1,14 @@
 <?php 
 require_once("../config.php");
 define('WP_USE_THEMES', false);
+$articleSlug = @ $_REQUEST['path'] ? $_REQUEST['path'] : "hello-world";
 
 // include wordpress
 require CMS_PATH . 'wp-blog-header.php';
 
 // collect posts directly without using API
-$query = new \WP_Query(array(
-    'posts_per_page' => 20,
-    'order' => 'ASC',
-    'orderby' => 'post_title',
-));
-$posts = $query->get_posts();
+$query = new \WP_Query("name=$articleSlug");
+$post = $query->get_post();
 
 
 // collect posts using API
@@ -20,7 +17,7 @@ $posts = $query->get_posts();
 //$cmsContentDecoded = json_decode($cmsContent);
 
 
-$TITLE = $posts[0]->post_title . " | Devzila";
+$TITLE = $post->post_title . " | Devzila";
 include_once("../include/header.php");
 ?>
 
@@ -28,8 +25,8 @@ include_once("../include/header.php");
 
       <div class="row">
         <div class="col-md-8">
-         	<h2><?php print $posts[0]->post_title; ?></h2>
-            <?php print $posts[0]->post_content; ?>        
+         	<h2><?php print $post->post_title; ?></h2>
+            <?php print $post->post_content; ?>        
             
         </div><!-- end left -->
 
