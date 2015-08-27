@@ -8,7 +8,7 @@ require CMS_PATH . 'wp-blog-header.php';
 
 // collect posts directly without using API
 $query = new \WP_Query("name=$articleSlug");
-$post = $query->get_post();
+$posts = $query->get_posts();
 
 
 // collect posts using API
@@ -17,7 +17,7 @@ $post = $query->get_post();
 //$cmsContentDecoded = json_decode($cmsContent);
 
 
-$TITLE = $post->post_title . " | Devzila";
+$TITLE = $posts[0]->post_title . " | Devzila";
 include_once("../include/header.php");
 ?>
 
@@ -25,8 +25,8 @@ include_once("../include/header.php");
 
       <div class="row">
         <div class="col-md-8">
-         	<h2><?php print $post->post_title; ?></h2>
-            <?php print $post->post_content; ?>        
+         	<h2><?php print $posts[0]->post_title; ?></h2>
+            <?php print $posts[0]->post_content; ?>        
             
         </div><!-- end left -->
 
