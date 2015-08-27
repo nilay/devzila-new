@@ -28,8 +28,8 @@ include_once("../include/header.php");
 
       <div class="row">
         <div class="col-md-8">
-         	<?php print $posts[0]->post->title; ?>
-            <?php print $posts[0]->post->content; ?>        
+         	<?php print $posts[0]->post_title; ?>
+            <?php print $posts[0]->post_content; ?>        
             
         </div><!-- end left -->
 
