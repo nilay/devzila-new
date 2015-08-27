@@ -28,14 +28,14 @@ include_once("../include/header.php");
 
       <div class="row">
         <div class="col-md-8">
-         	<?php print $posts[0]->post_title; ?>
+         	<h2><?php print $posts[0]->post_title; ?></h2>
             <?php print $posts[0]->post_content; ?>        
             
         </div><!-- end left -->
 
         <div class="col-md-4">
-			<?php include("include/_contact.php");?>
-			<?php include("include/_related.php");?>
+			<?php include("../include/_contact.php");?>
+			<?php include("../include/_related.php");?>
         </div><!--end right --> 
      
       </div><!--end row -->
