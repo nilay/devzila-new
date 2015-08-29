@@ -7,3 +7,8 @@ if(strpos($_SERVER['HTTP_HOST'], 'localhost')!==false){
 else{
 	define("CMS_PATH", "/home/cms/public_html/");
 }
+
+
+define('WP_USE_THEMES', false);
+// include wordpress
+require CMS_PATH . 'wp-blog-header.php';

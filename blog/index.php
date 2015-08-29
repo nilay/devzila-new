@@ -1,10 +1,6 @@
 <?php 
 require_once("../config.php");
-define('WP_USE_THEMES', false);
-$articleSlug = @ $_REQUEST['path'] ? $_REQUEST['path'] : "hello-world";
-
-// include wordpress
-require CMS_PATH . 'wp-blog-header.php';
+$articleSlug = @ $_REQUEST['path'] ? $_REQUEST['path'] : "tips-for-hiring-remote-web-developer";
 
 // collect posts directly without using API
 $query = new \WP_Query("name=$articleSlug");
@@ -25,8 +21,8 @@ include_once("../include/header.php");
 
       <div class="row">
         <div class="col-md-8">
-         	<h2><?php print $posts[0]->post_title; ?></h2>
-            <?php print $posts[0]->post_content; ?>        
+         	<h1><?php print $posts[0]->post_title; ?></h1>
+            <?php print apply_filters('the_content', $posts[0]->post_content); ?>        
             
         </div><!-- end left -->
 

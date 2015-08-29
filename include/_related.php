@@ -3,42 +3,23 @@
 
 <div class="sidebar-section newto">
     <h2 class="newto-title">Recent <strong>Posts</strong></h2>
+    
+    <?php
+	$args = array( 'numberposts' => '5' );
+	$recent_posts = wp_get_recent_posts( $args );
+	foreach( $recent_posts as $recent ):
+	?>   
+    
 	<article class="dots-h">
     	 <div class="holder">        
     	 	<header>            
-    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
+    	 		<h3><a href="<?php echo get_permalink($recent["ID"]) ?>"><?php echo $recent["post_title"] ?></a></h3>        
     	 	</header>        
-    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
+    	 	<p class="newto-description"><?php echo $recent["post_excerpt"] ?><a class="moretext" href="<?php echo get_permalink( $recent["ID"] )?>"> more</a></p>    
     	 </div>   
     </article>
+	<?php endforeach;?>
 
-
-	<article class="dots-h">
-    	 <div class="holder">        
-    	 	<header>            
-    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
-    	 	</header>        
-    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
-    	 </div>   
-    </article>
-
-	<article class="dots-h">
-    	 <div class="holder">        
-    	 	<header>            
-    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
-    	 	</header>        
-    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
-    	 </div>   
-    </article>
-
-	<article class="dots-h">
-    	 <div class="holder">        
-    	 	<header>            
-    	 		<h3><a href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/">How to cheer up a sick kid</a></h3>        
-    	 	</header>        
-    	 	<p class="newto-description">If you've got a bunch of young snifflers on your hands, here's how to cheer them up.<a class="moretext" href="http://www.kidspot.com.au/9-ways-to-cheer-up-a-sick-kid/"> more</a></p>    
-    	 </div>   
-    </article>
 
 </div>
 
