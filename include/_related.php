@@ -13,9 +13,9 @@
 	<article class="dots-h">
     	 <div class="holder">        
     	 	<header>            
-    	 		<h3><a href="<?php echo get_permalink($recent["ID"]) ?>"><?php echo $recent["post_title"] ?></a></h3>        
+    	 		<h3><a href="<?php echo BLOG_BASE_URL . $recent["post_name"] ?>"><?php echo $recent["post_title"] ?></a></h3>        
     	 	</header>        
-    	 	<p class="newto-description"><?php echo $recent["post_excerpt"] ?><a class="moretext" href="<?php echo get_permalink( $recent["ID"] )?>"> more</a></p>    
+    	 	<p class="newto-description"><?php echo $recent["post_excerpt"] ?><a class="moretext" href="<?php echo BLOG_BASE_URL . $recent["post_name"] ?>"> more</a></p>    
     	 </div>   
     </article>
 	<?php endforeach;?>

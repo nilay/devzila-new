@@ -12,3 +12,6 @@ else{
 define('WP_USE_THEMES', false);
 // include wordpress
 require CMS_PATH . 'wp-blog-header.php';
+
+define("BASE_URL", '//' . $_SERVER['HTTP_HOST']);
+define("BLOG_BASE_URL", BASE_URL . '/blog/');
