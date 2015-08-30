@@ -1,4 +1,5 @@
 <?php
+require_once("config.php");
 $TITLE = "Devzila";
 include_once("include/header.php");
 ?>

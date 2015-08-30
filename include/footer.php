@@ -62,23 +62,18 @@
                             </div>
                             <nav>
                                 <ul class="footer-blog">
+                                    <?php
+									$args = array( 'numberposts' => '5', 'category_name' => 'footer-widget' );
+									$recent_posts = wp_get_recent_posts( $args );
+									foreach( $recent_posts as $recent ):
+									?>   
+                                
                                     <!-- List Items -->
                                     <li>
-                                        <a href="#">Bootstrap, AngularJS, jQuery, Laravel are our default choice</a>
+                                        <a href="<?php echo BLOG_BASE_URL . $recent["post_name"] ?>"><?php echo $recent["post_title"] ?></a>
                                     </li>
-                                    <li>
-                                        <a href="#">The Dark Side of Security</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Tips for hiring remote web developer</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Modern Languages in Practice</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Full Stack JavaScript</a>
-                                    </li>
-                                </ul>
+                                    <?php endforeach;?>
+                              </ul>
                             </nav>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 widget newsletter bottom-xs-pad-20">

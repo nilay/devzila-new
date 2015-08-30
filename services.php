@@ -1,4 +1,5 @@
 <?php
+require_once("config.php");
 $TITLE = "Devzila";
 include_once("include/header.php");
 ?>
@@ -14,16 +15,16 @@ include_once("include/header.php");
             
              <p>  
                 <strong>Quality Assurance:</strong><br/>
-                Specialized Services – Agile testing, UAT testing, ERP/NAS testing, Performance testing, Security testing, Database testing, Mobile testing, Cloud testing etc. 
-                <br/>Solutions/Accelerators – ValueLabs BEST Framework, ValueLabs Test Automation Framework, FinTest (for banks), Unified Test Management Solution (UTMS), Healthcare Testing Framework
+                Specialized Services:  Agile testing, UAT testing, ERP/NAS testing, Performance testing, Security testing, Database testing, Mobile testing, Cloud testing etc. 
+                <br/>Solutions/Accelerators  ValueLabs BEST Framework, ValueLabs Test Automation Framework, FinTest (for banks), Unified Test Management Solution (UTMS), Healthcare Testing Framework
             </p>
             
             <p>&nbsp;</p>
 
             <p>
                 <strong>Infrastructure Engineering Services:</strong><br/>
-                Our IES services are built on the concept of ‘optimize at the back end’ to bring in operational efficiencies and drive down costs. 
-                <br/>Management – On Demand Services/Self service | Monitoring – Application re-factoring/re-platforming | Security – Standardization, Virtualization, Optimization and Hybrid Services
+                Our IES services are built on the concept of optimize at the back end to bring in operational efficiencies and drive down costs. 
+                <br/>Management  On Demand Services/Self service | Monitoring  Application re-factoring/re-platforming | Security  Standardization, Virtualization, Optimization and Hybrid Services
             </p>
             <p>&nbsp;</p>
             
