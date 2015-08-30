@@ -5,7 +5,7 @@
     <h2 class="newto-title">Recent <strong>Posts</strong></h2>
     
     <?php
-	$args = array( 'numberposts' => '5' );
+	$args = array( 'numberposts' => '5', 'category_name' => 'right-widget' );
 	$recent_posts = wp_get_recent_posts( $args );
 	foreach( $recent_posts as $recent ):
 	?>   
