@@ -19,8 +19,7 @@ $PAGE = ltrim($_SERVER['REQUEST_URI'], '/');
     <link href="/css/style.css" rel="stylesheet">  
     <!-- Custom Style -->
     <!-- Color Scheme -->
-    <link href="css/color.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

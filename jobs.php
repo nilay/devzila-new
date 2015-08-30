@@ -1,20 +1,31 @@
 <?php
-$TITLE = "Devzila";
+require_once("config.php");
+$args = array( 'numberposts' => 10, 'category_name' => 'jobs' );
+$posts = get_posts( $args );
+
+
+$TITLE = "Jobs | Devzila";
 include_once("include/header.php");
 ?>
 <div class="container">
 
       <div class="row">
-        <div class="col-md-12">
-            <div class="jumbotron">
-                <h1>Let's Keep In Touch!</h1>
-                <p class="tagline">Thank you for visiting out little slice of the internet. If you would like to get into contact with our team simply fill out the nifty form below. Click send. Let's talk.</p>  
-            </div><!--end jumbotron -->
-        </div>
+
+
         <div class="col-md-8">
+
+        <div class="jumbotron">
+            <h1>We are hiring!</h1>
+            <p class="tagline">YOU CAN'T TEACH EMPLOYEES TO SMILE. THEY HAVE TO SMILE BEFORE YOU HIRE THEM - ARTE NATHAN</p>  
+        </div><!--end jumbotron -->
+
          
          <!-- generic contact form -->   
-		<?php include("include/_contact.php");?>           
+		<?php foreach( $posts as $post ): setup_postdata($post);?>
+    		<h2> <a href="<?php echo BLOG_BASE_URL . $post->post_name;?>"><?php echo the_title() ?> </a></h2>
+    		<div> <?php the_excerpt() ?> </div>
+    		<hr>
+		<?php endforeach; ?>           
             
         </div><!-- end left -->
 
